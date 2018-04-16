@@ -1,0 +1,381 @@
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Aralet','Hiragino Kaku Gothic ProN','メイリオ', sans-serif;
+　margin: 0;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*ここからheader*/
+
+*{
+	box-sizing: border-box;
+}
+
+header {
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #e6e6e6;
+	box-shadow: none;
+	z-index: 10;
+}
+
+.header-logo {
+	float: left;
+}
+
+.agrino-logo {
+	width: 120px;
+	padding-top: 13px;
+}
+
+.header-list ul {
+	float: right;
+}
+
+.header-list li{
+	float: left;
+	padding-right: 15px;
+	transition: all .3s;
+}
+
+.header-list a{
+	color: black;
+	text-decoration: none;
+}
+
+.header-list a:hover {
+	color: #339900;
+}
+
+/*ここまでheader*/
+
+/*ここからtop-section*/
+.top-section {
+	background-image: url("agrino-eyecatch.png");
+	margin: 0 auto;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+}
+
+
+.top-description {
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+.top-detail {
+	padding-bottom: 150px;
+}
+
+
+.top-description h1 {
+	font-size: 44px;
+}
+
+.br-sp {
+	display: none;
+}
+
+.top-description p {
+	font-size: 25px;
+}
+
+.btn {
+	padding: 15px 20px;
+}
+
+
+.btn-entry {
+	display: inline-block;
+	background-color: #339900;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.btn-entry:hover {
+	background-color: white;
+	color: #339900;
+	border: 2px solid #339900;
+}
+
+
+/*ここからwhats-agrino*/
+.whats-agrino {
+	text-align: center;
+	color: #339900;
+	background-color: #e6e6e6;
+	line-height: 2;
+	
+}
+
+.whats-agrino-section {
+	margin-top: -50px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.whats-agrino-logo {
+	width: 150px;
+}
+
+.whats-agrino-section h2 {
+	font-size: 30px;
+}
+
+
+
+/*ここからprogram-wrapper*/
+.section-introduction {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.section-introduction h2 {
+	font-size: 30px;
+}
+
+.section-introduction p {
+	line-height: 1.5;
+}
+
+.programs {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.program-box {
+	margin: 0 auto;
+	width: 65%;
+	background-color: #e6e6e6;
+	border-radius: 20;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.program-number  {
+	width: 100px;
+	position: absolute;
+	top: -35px;
+	right: auto;
+	left: 1%;
+	bottom: 0;
+	
+}
+
+.program-title {
+	background-color: #339900;
+}
+
+.program-title h3 {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px 10px
+}
+
+.program-content {
+	margin-top: -40px;
+	display: inline-block;
+}
+
+
+.program-imgs {
+    margin-botom: 10px;
+	float: left;
+	width: 45%;
+}
+
+.program-imgs img {
+	width: 100%;
+	padding-top: 10%;
+	padding-left: 6%;
+}
+
+.program-description {
+	width: 40%;
+	float: right;
+	margin-right: 45px;
+	text-align: left; 
+}
+
+.program-description h4 {
+	font-size: 20px;
+	border-bottom: 2px solid #339900;
+}
+
+.program-description p {
+	margin-top: -20px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+
+/*ここからstrong-point-wrapper*/
+.strong-point-wrapper {
+	background-color : #e6e6e6;
+}
+
+.strong-point-title {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.strong-point-title h2 {
+	font-size: 30px;
+}
+
+#strong-point-boxes {
+	padding-bottom: 100px;
+}
+
+.strong-point-box {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	display: block;
+}
+
+.left-strong-section {
+	width: 50%;
+	float: left;
+}
+
+.left-strong-section img {
+	width: 90%;
+}
+
+.right-strong-section {
+	display: inline-block;
+	width: 45%;
+	margin-top: -35px;
+}
+
+.right-strong-section h3 {
+	font-size: 50px;
+    color: #339900;
+}
+
+.right-strong-section p {
+	font-size: 15px;
+	line-height: 150%;
+	margin-top: -35px;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+/*ここからrecommendation-section*/
+
+.recommendation-section-title {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.r-boxes {
+	width: 100%;
+	text-align: center;
+}
+
+.r-box {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	padding: 5px 15px 80px 30px;
+    vertical-align: top;
+    
+	
+}
+
+.r-box h3 {
+	color: #339900;
+}
+
+.r-img {
+	width: 100%;
+}
+
+/*ここからaiesec-introduction*/
+.aiesec-introduction {
+	background-color: #e6e6e6;
+	text-align: center;
+}
+
+.intro-title {
+	padding-top: 50px;
+	font-size: 20px;
+	color: #037ef3;
+}
+
+.aiesec-logo img {
+	width: 20%;
+}
+
+.aiesec-description {
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 80px;
+}
+
+.aiesec-description h3 {
+	font-size: 20px;
+}
+
+.aiesec-description p {
+	line-height: 150%;
+}
+/*ここからfooter*/
+footer {
+	text-align: center;
+}
+
+.footer-top {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.footer-top h2 {
+	font-size: 20px;
+}
+
+.footer-top p {
+	font-size: 13px;
+}
+
+.fa-facebook {
+	color: black;
+}
+
+.footer-bottom {
+	background-color: #339900;
+}
+.footer-bottom img {
+	width: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

@@ -1,0 +1,225 @@
+
+@media(max-width: 1000px){
+	.cotainer {
+		width: 1000px;
+	}
+	
+	.header-list {
+		line-height: 30px;
+	}
+	
+	.header-list ul {
+		font-size: 12px;
+		
+	}
+	
+	.program-title h3{
+		font-size: 23px;
+	}
+	
+	.program-number {
+		width: 80px;
+	}
+	
+	.program-imgs img {
+		padding-top: 20%;
+	}
+	
+	.program-description h4{
+		font-size: 18px;
+	}
+	
+	.program-description p {
+		font-size: 12px;
+	}
+	
+	.right-strong-section h3 {
+		font-size: 45px;
+	}
+	
+	.r-box h3 {
+		font-size: 20px;
+	}
+	
+	.r-box p {
+		font-size: 13px;
+	}
+	
+}
+
+
+@media (max-width: 660px){
+/*header部分*/
+	.cotainer {
+		width: 450px;
+	}
+
+	header {
+		height: 40px;
+	}
+
+	.header-list {
+		display: none;
+	}
+	
+	.header-list ul {
+		font-size: 10px;
+	}
+	
+	.agrino-logo {
+		width: 70px;
+	
+	}
+	
+    .top-description {
+        padding-top: 150px;
+        padding-bottom: 30px;
+    }
+	
+	.top-description h1 {
+		line-height: 1.5;
+        font-size: 37px;
+	}
+	
+	.top-description p {
+		font-size: 12px;
+	}
+	
+	
+	.br-sp {
+		display: block;
+	}
+	
+    .whats-agrino-section h2 {
+        font-size: 22px;
+    }
+	
+    .whats-agrino-section p {
+        font-size: 10px;
+    }
+	
+    
+	/*program-wrapper部分*/
+	
+    .program-box {
+        width: 100%;
+    }
+    
+    .section-introduction p {
+        font-size: 11px;
+    }
+    
+	.program-title h3 {
+		font-size: 20px;
+		text-align: center;
+		line-height: 1.5;
+
+	}
+    
+    
+	
+	.program-imgs {
+		width: 90%;
+		margin: 0 auto;
+		padding-left: 5%;
+	}
+	
+	.program-description {
+        font-size: 15px;
+		width: 80%;
+		padding-left: 7%;
+	}
+    
+    
+    
+    .program-description h4 {
+        font-size: 16px;
+    }
+    
+    .program-description p {
+        font-size: 12px;
+    }
+	
+	.program-number {
+        display: none;
+        width: 40px;
+		position: absolute;
+		top: -10px;
+        left: 2px;
+		right: auto;
+	}
+	
+	
+	/*ここからstrong-point-wrapper*/
+    .strong-point-boxes {
+        padding-bottom: 70px;
+    }
+    
+    .left-strong-section {
+		width: 100%;
+		
+	}
+	
+	.right-strong-section {
+		width: 100%;
+	}
+	
+	.right-strong-section h3 {
+		font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+	}
+    
+    .right-strong-section p {
+		font-size: 12px;
+	}
+    
+	/*ここからrecommendation-section*/
+    .recommendation-section-title {
+        font-size: 18px;
+    }
+	.r-box {
+		width: 100%;
+	}
+	
+	.r-img {
+		width: 60%;
+	}
+    
+    .r-box h3 {
+        font-size: 16px;
+    }
+	
+	.r-box p{
+		line-height: 1.5;
+	}
+	
+	/*ここからaiesec-introduction*/
+	.aiesec-logo img {
+		width: 50%;
+	}
+	
+	.aiesec-description {
+		width: 75%;
+		font-size: 12px;
+		line-height: 1.5;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
