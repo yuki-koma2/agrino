@@ -4,7 +4,8 @@ li {
 
 body {
   font-family: 'Aralet','Hiragino Kaku Gothic ProN','メイリオ', sans-serif;
-　margin: 0 -8px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .container {
