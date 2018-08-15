@@ -3,8 +3,9 @@ li {
 }
 
 body {
-  font-family: 'Aralet','Hiragino Kaku Gothic ProN','メイリオ', sans-serif;
-　margin: 0;
+	font-family: 'Aralet','Hiragino Kaku Gothic ProN','メイリオ', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 .container {
@@ -65,7 +66,7 @@ header {
 
 /*ここからtop-section*/
 .top-section {
-	background-image: url("agrino-eyecatch.png");
+	background-image: url("agrino-eyecatch-mini.png");
 	margin: 0 auto;
 	background-size: cover;
 	color: #fff;
